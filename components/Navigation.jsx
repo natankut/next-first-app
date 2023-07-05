@@ -1,6 +1,8 @@
 import Link from 'next/link'
 
 const Navigation = () => {
+
+  
   return (
     <>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -16,6 +18,9 @@ const Navigation = () => {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" href="/services">Services</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" href="/search">Search</Link>
                 </li>
               </ul>
             </div>

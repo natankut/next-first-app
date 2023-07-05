@@ -1,3 +1,4 @@
+"use client"
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Navigation from '@/components/Navigation'
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
       <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css" />
     </head>
       <body className={inter.className}>
-      <Navigation/>
+      <Navigation />
       <div className='container'>
         
         {children}
